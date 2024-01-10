@@ -9,7 +9,6 @@ workflows:
       cocoapods: default
     triggering:
       events:
-        - push
         - tag
       tag_patterns:
         - pattern: '*'
